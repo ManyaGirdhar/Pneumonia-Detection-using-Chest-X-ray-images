@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Information</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            padding-top: 20px;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+        }
+
+        .info-container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .symptoms-list {
+            margin-bottom: 20px;
+        }
+
+        .symptoms-list li {
+            margin-bottom: 5px;
+        }
+
+        #pneumonia-image {
+            max-width: 50%; /* Reduce the maximum width of the image further */
+            height: auto;
+            margin: 0 auto; /* Center align the image horizontally */
+            display: block; /* Ensure the image is treated as a block element */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/#">Pneumonia Detection</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container info-container">
+        <h1 class="info-heading">What is Pneumonia?</h1>
+        <h4>What are its Symptoms?</h4>
+        <img id="pneumonia-image" src="static/pneumonia.jpg" alt="Pneumonia Image">
+        <p>Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus
+            (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty breathing. A variety of
+            organisms, including bacteria, viruses, and fungi, can cause pneumonia.</p>
+        <h2>Symptoms of Pneumonia</h2>
+        <ul class="symptoms-list">
+            <li>Cough with phlegm or pus</li>
+            <li>Fever</li>
+            <li>Chills</li>
+            <li>Difficulty breathing</li>
+            <li>Rapid heartbeat</li>
+            <li>Chest pain when breathing or coughing</li>
+            <li>Fatigue</li>
+            <li>Loss of appetite</li>
+            <li>Confusion (in older adults or people with weakened immune systems)</li>
+        </ul>
+        <p>If you or someone you know is experiencing symptoms of pneumonia, it's important to seek medical attention promptly for
+            proper diagnosis and treatment.</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
